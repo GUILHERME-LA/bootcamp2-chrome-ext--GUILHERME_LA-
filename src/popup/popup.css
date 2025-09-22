@@ -1,0 +1,42 @@
+body {
+  width: 300px;
+  padding: 10px;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  text-align: center;
+}
+
+h1 {
+  font-size: 18px;
+  color: #ec0089;
+  margin-bottom: 10px;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  margin: 10px 0;
+}
+
+button {
+  background: #ec0089;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+button:hover {
+  background: #d6007a;
+}
+
+#status {
+  font-size: 12px;
+  color: #666;
+  margin-top: 10px;
+  word-break: break-word;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootcamp Helper — Extensão MV3</title>
+  <style>
+    body { font-family: Arial, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; }
+    h1 { color: #ec0089; }
+    img { max-width: 100%; height: auto; }
+    .section { margin: 20px 0; }
+    ul { list-style-type: disc; padding-left: 20px; }
+  </style>
+</head>
+<body>
+  <h1>Bootcamp Helper — Extensão MV3</h1>
+  <img src="../src/assets/logo.svg" alt="Logo" style="width: 100px;">
+
+  <p>Extensão para Chrome (Manifest V3) — projeto do Bootcamp II. Demonstra popup para comunicação com background, storage e content script para manipular DOM em páginas específicas.</p>
+
+  <div class="section">
+    <h2>Funcionalidades</h2>
+    <ul>
+      <li>Popup: Clique no ícone para pingar o service worker e ver o timestamp.</li>
+      <li>Background: Registra instalação e responde a mensagens.</li>
+      <li>Content Script: Destaca links em <a href="https://developer.chrome.com/">developer.chrome.com</a> com outline roxo.</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>Instalação manual (modo desenvolvedor)</h2>
+    <ol>
+      <li>Aba <code>chrome://extensions</code> → ative Developer mode.</li>
+      <li>Clique em Load unpacked e selecione a pasta do projeto.</li>
+      <li>Clique no ícone da extensão na toolbar para abrir o popup.</li>
+    </ol>
+    <p>Teste o content script: Visite <a href="https://developer.chrome.com/docs/extensions/">uma página de docs</a> e inspecione os links (F12).</p>
+  </div>
+
+  <div class="section">
+    <h2>Permissões</h2>
+    <ul>
+      <li><code>storage</code>: Para salvar data de instalação.</li>
+      <li><code>tabs</code>: Para acessar info de abas (mínimo necessário).</li>
+      <li><code>host_permissions</code>: Apenas <code>https://developer.chrome.com/*</code> para content script.</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>Download</h2>
+    <p>Baixe a versão empacotada: <a href="../releases/download/v1.0.0/bootcamp-helper-v1.0.0.zip">bootcamp-helper-v1.0.0.zip</a> (crie uma Release no GitHub para este link).</p>
+    <p><strong>Screenshots:</strong> (Adicione imagens aqui, e.g., popup em ação e highlights no DOM).</p>
+  </div>
+
+  <footer>
+    <p>Projeto do Bootcamp II | Licença: MIT | <a href="https://github.com/<seu-usuario>/bootcamp2-chrome-ext-<seu-usuario>">Repositório no GitHub</a></p>
+  </footer>
+</body>
+</html>

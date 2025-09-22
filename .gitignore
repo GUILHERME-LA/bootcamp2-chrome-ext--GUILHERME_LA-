@@ -1,0 +1,15 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Node (se usar para build assets)
+node_modules/
+npm-debug.log
+
+# Builds
+dist/
+*.zip  (exceto releases)
