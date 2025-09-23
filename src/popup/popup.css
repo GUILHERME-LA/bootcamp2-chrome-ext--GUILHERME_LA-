@@ -1,42 +1,80 @@
 body {
   width: 300px;
-  padding: 10px;
+  padding: 0;
+  margin: 0;
   font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
 }
 
 .container {
+  padding: 15px;
+}
+
+h2 {
   text-align: center;
-}
-
-h1 {
-  font-size: 18px;
   color: #ec0089;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
+  font-size: 18px;
 }
 
-.logo {
-  width: 50px;
-  height: 50px;
-  margin: 10px 0;
+.section {
+  background: white;
+  border-radius: 8px;
+  padding: 12px;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+h3 {
+  color: #ec0089;
+  font-size: 14px;
+  margin-top: 0;
+  margin-bottom: 10px;
 }
 
 button {
   background: #ec0089;
   color: white;
   border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
+  padding: 8px 16px;
+  border-radius: 4px;
   cursor: pointer;
-  font-size: 14px;
+  font-size: 12px;
+  margin: 2px;
 }
 
 button:hover {
   background: #d6007a;
 }
 
-#status {
+button:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+
+label {
   font-size: 12px;
   color: #666;
+}
+
+select {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 12px;
+}
+
+#pingStatus, #timerStatus {
+  font-size: 11px;
+  color: #333;
+  margin-top: 8px;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  font-size: 10px;
+  color: #999;
   margin-top: 10px;
-  word-break: break-word;
 }
