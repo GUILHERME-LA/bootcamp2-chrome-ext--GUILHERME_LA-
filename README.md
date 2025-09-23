@@ -2,6 +2,9 @@
 
 Extensão simples para praticar Manifest V3 no Bootcamp II. Inclui popup para comunicação com background service worker, uso de storage e um content script opcional para manipular DOM em páginas específicas (ex: docs do Chrome).
 
+## 📦 Download
+[Versão 1.0.0](https://github.com/<seu-usuario>/bootcamp2-chrome-ext-<seu-usuario>/releases/tag/v1.0.0)
+
 ## 📋 Instalação
 
 1. Baixe o repositório: Clone ou faça download do ZIP.
