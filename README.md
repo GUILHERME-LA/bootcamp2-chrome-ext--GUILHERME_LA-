@@ -66,7 +66,7 @@ Use branches e PRs. Commits: Descritivos e frequentes.
 
 ## 📨 Contato
 
-Projeto para Bootcamp II. Repo: https://github.com/<seu-usuario>/bootcamp2-chrome-ext-<seu-usuario>
+Projeto para Bootcamp II. Repo: https://github.com/<seu-usuario>/bootcamp2-chrome-ext-<GUILHERME-LA>
 
 ---
 Desenvolvido com ❤️ pelo Bootcamp II. Mantenha permissões enxutas!
