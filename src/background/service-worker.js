@@ -1,13 +1,4 @@
-console.log('Bootcamp Helper Background carregado!');
 
-// Ping (Teste Antigo)
-chrome.runtime.onMessage.addListener((msg, sender, sendResponse) => {
-  if (msg.type === 'PING') {
-    console.log('Ping recebido do popup!');
-    sendResponse({ ok: true, time: new Date().toISOString() });
-    return true; // Resposta assíncrona
-  }
-});
 
 // Inicialização
 chrome.runtime.onInstalled.addListener(() => {

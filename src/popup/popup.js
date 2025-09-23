@@ -1,16 +1,3 @@
-// Ping do Background (Teste Antigo)
-document.addEventListener('DOMContentLoaded', () => {
-  const pingBtn = document.getElementById('pingBtn');
-  const pingStatus = document.getElementById('pingStatus');
-
-  pingBtn.addEventListener('click', async () => {
-    try {
-      const response = await chrome.runtime.sendMessage({ type: 'PING' });
-      pingStatus.textContent = `Background OK! Hora: ${response.time}`;
-    } catch (error) {
-      pingStatus.textContent = `Erro: ${error.message}`;
-    }
-  });
 
   // Timer de Hidratação
   const intervaloSelect = document.getElementById('intervalo');
@@ -50,4 +37,3 @@ document.addEventListener('DOMContentLoaded', () => {
       pararBtn.disabled = true;
     });
   });
-});
